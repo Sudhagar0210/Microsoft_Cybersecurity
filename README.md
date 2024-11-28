@@ -67,14 +67,26 @@ The solution developed can be implemented in various business scenarios, includi
 
 By the end of the project, the machine learning model achieved the following performance metrics:
 
-### Performance Metrics for New Train Sample Dataset (XGBoost Model)
+### Performance Metrics for New Train Sample Dataset (RandomForestClassifier Model)
 
-| Metric       | Training       | Testing        |
-|--------------|----------------|----------------|
-| Accuracy     | 95.35%         | 92.46%         |
-| Precision    | 95.38%         | 92.52%         |
-| Recall       | 95.35%         | 92.47%         |
-| Macro F1     | 95.35%         | 92.46%         |
+Accuracy : 0.98
+Precision : 0.98
+Recall : 0.98
+F1_Score : 0.98
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98    415850
+           1       0.98      0.96      0.97    203214
+           2       0.99      0.98      0.98    332620
+
+    accuracy                           0.98    951684
+   macro avg       0.98      0.97      0.98    951684
+weighted avg       0.98      0.98      0.98    951684
+
+
 
 ### Performance Metrics for GUIDE Test Dataset (RandomForestClassifier Model)
 -----------------------------------------------------------------------------
