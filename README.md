@@ -76,14 +76,27 @@ By the end of the project, the machine learning model achieved the following per
 | Recall       | 95.35%         | 92.47%         |
 | Macro F1     | 95.35%         | 92.46%         |
 
-### Performance Metrics for GUIDE Test Dataset (XGBoost Model)
+### Performance Metrics for GUIDE Test Dataset (RandomForestClassifier Model)
+-----------------------------------------------------------------------------
+Accuracy : 0.99
+Precision : 0.99
+Recall : 0.99
+F1_Score : 0.99
 
-| Metric       | Training       | Testing        |
-|--------------|----------------|----------------|
-| Accuracy     | 96.22%         | 93.32%         |
-| Precision    | 96.24%         | 93.39%         |
-| Recall       | 96.22%         | 93.31%         |
-| Macro F1     | 96.22%         | 93.32%         |
+Classification Report:
+
+-------------------------------------------------------
+              precision    recall  f1-score   support
+-------------------------------------------------------
+           0       0.98      0.99      0.99    350403
+           1       0.98      0.98      0.98    180282
+           2       0.99      0.99      0.99    298914
+-------------------------------------------------------
+    accuracy                           0.99    829599
+   macro avg       0.99      0.98      0.98    829599
+weighted avg       0.99      0.99      0.99    829599
+
+------------------------------------------------------
 
 ### Key Findings
 - The model demonstrates a high level of accuracy, precision, recall, and macro F1 score, indicating its effectiveness in classifying the triage grades of cybersecurity incidents (TP, BP, FP).
