@@ -78,6 +78,7 @@ By the end of the project, the machine learning model achieved the following per
 
 ### Performance Metrics for GUIDE Test Dataset (RandomForestClassifier Model)
 -----------------------------------------------------------------------------
+
 Accuracy : 0.99
 Precision : 0.99
 Recall : 0.99
@@ -85,18 +86,17 @@ F1_Score : 0.99
 
 Classification Report:
 
--------------------------------------------------------
               precision    recall  f1-score   support
--------------------------------------------------------
+
            0       0.98      0.99      0.99    350403
            1       0.98      0.98      0.98    180282
            2       0.99      0.99      0.99    298914
--------------------------------------------------------
+
     accuracy                           0.99    829599
    macro avg       0.99      0.98      0.98    829599
 weighted avg       0.99      0.99      0.99    829599
 
-------------------------------------------------------
+
 
 ### Key Findings
 - The model demonstrates a high level of accuracy, precision, recall, and macro F1 score, indicating its effectiveness in classifying the triage grades of cybersecurity incidents (TP, BP, FP).
